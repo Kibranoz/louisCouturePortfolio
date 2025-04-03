@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Louis Couture</title>
+    <link>http://localhost:1313/fr/</link>
+    <description>Recent content on Louis Couture</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 02 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>À propos</title>
+      <link>http://localhost:1313/fr/about/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/about/</guid>
+      <description>Je suis un développeur logiciel gradué de l&amp;rsquo;université Laval à la recherche d&amp;rsquo;un nouvel emploi. Je suis un joueur d&amp;rsquo;équipe et je suis capable de bien m&amp;rsquo;intégrer dans une nouvelle équipe.&#xA;Languages avec lesquels j&amp;rsquo;ai de l&amp;rsquo;expérience Link to heading Javascript TypeScript PHP Go C# Python Kotlin Swift MySQL Frameworks avec lesquels je suis familier Link to heading VueJS React .NET Doctrine Gin &amp;amp; Gorm Spacy Vitest Jest Playwright Mes intérêts Link to heading IA, apprentissage machine, développement front-end, développement back-end, accessibilité (a11y)</description>
+    </item>
+    <item>
+      <title>Portfolio</title>
+      <link>http://localhost:1313/fr/portfolio/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/portfolio/</guid>
+      <description>Débatemps : Chronomètre de débat Link to heading Débatemps est une application de chronométrage de débat compatible avec de nombreux formats, tels que les débats parlementaires britannique et canadien. Son approche orientée objet lui confère une conception modulaire, facilitant l&amp;rsquo;ajout de nouveaux formats. Actuellement disponible sur Google Play, elle pourrait théoriquement fonctionner sur iOS et Android.&#xA;Technologies Capacitor, VueJS, Ionic Voir l&amp;rsquo;application sur Google Play&#xA;Timenote Link to heading Timenote est un éditeur d&amp;rsquo;horodatage.</description>
+    </item>
+  </channel>
+</rss>

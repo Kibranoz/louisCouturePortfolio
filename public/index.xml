@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Louis Couture</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Louis Couture</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 02 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>I am a Ulaval graduate software developer in the Quebec City area currently looking for work. People say I am a team player that can integrate easily into a new organisation. I also get along well with new people.&#xA;Languages I am proficient in Link to heading Javascript TypeScript PHP Go C# Python Kotlin Swift MySQL Frameworks I am familiar with Link to heading VueJS React .NET Doctrine Gin &amp;amp; Gorm Spacy Vitest Jest Playwright What are my Interests Link to heading AI, Machine learning, front-end development, back-end development, accessibility (a11y)</description>
+    </item>
+    <item>
+      <title>Portfolio</title>
+      <link>http://localhost:1313/portfolio/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/</guid>
+      <description>Debatemps : Debate timer Link to heading Débatemps is a debate timer application that supports many debate formats, such as British and Canadian Parliamentary. It uses an object oriented approach in order to have a modular design, which makes it easy to add new debate formats. It is currently available on Google Play but could theoretically run both on iOS and Android.&#xA;Technologies Capacitor, VueJS, Ionic Check the app on google play</description>
+    </item>
+  </channel>
+</rss>

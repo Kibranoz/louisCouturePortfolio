@@ -1,0 +1,85 @@
+baseurl = "http://www.example.com"
+title = "Louis Couture"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+
+[pagination]
+pagerSize = 20
+
+[services]
+[services.disqus]
+shortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Louis Couture"
+  info = "Passionated Software developper"
+  description = "John Doe's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/avatar.jpg"
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2019
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[languages.fr.params]
+    info = "Développeur logiciel passioné"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/Kibranoz/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 2
+  url = "https://www.linkedin.com/in/louis-couture-a67474208/"
+
+
+[languages.en]
+languageName = ":uk:"
+[languages.fr]
+languageName = ":fr:"
+
+# Menu links
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+[[languages.fr.menu.main]]
+  name = "À propos"
+  weight = 1
+  url = "about/"
+[[menu.main]]
+    name = "Portfolio"
+    weight= 2
+    url = "portfolio/"
+
+[[languages.fr.menu.main]]
+    name = "Portfolio"
+    weight= 2
+    url = "portfolio/"
