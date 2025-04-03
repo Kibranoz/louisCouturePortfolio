@@ -83,3 +83,7 @@ languageName = ":fr:"
     name = "Portfolio"
     weight= 2
     url = "portfolio/"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
