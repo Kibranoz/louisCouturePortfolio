@@ -84,6 +84,28 @@ languageName = ":fr:"
     weight= 2
     url = "portfolio/"
 
+[[menu.main]]
+      name = "Apps"
+      weight = 3
+      url = "apps/"
+      identifier = "apps"
+
+[[languages.fr.menu.main]]
+    name = "Apps"
+    identifier = "apps"
+    weight = 3
+    url = "apps/"
+[[menu.main]]
+          name = "Paths"
+          weight = 1
+          url = "/apps/paths/"
+          parent  = "apps"
+[[languages.fr.menu.main]]
+        name = "Paths"
+        weight = 3
+        url = "/apps/paths/"
+        parent  = "apps"
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'

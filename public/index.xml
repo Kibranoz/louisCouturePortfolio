@@ -6,21 +6,28 @@
     <description>Recent content on Louis Couture</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paths</title>
+      <link>http://localhost:1313/apps/paths/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/apps/paths/</guid>
+      <description>&lt;h2 id=&#34;title&#34;&gt;&#xA;  title&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#title&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Hi&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About me</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>I am a Ulaval graduate software developer in the Quebec City area currently looking for work. People say I am a team player that can integrate easily into a new organisation. I also get along well with new people.&#xA;Languages I am proficient in Link to heading Javascript TypeScript PHP Go C# Python Kotlin Swift MySQL Frameworks I am familiar with Link to heading VueJS React .NET Doctrine Gin &amp;amp; Gorm Spacy Vitest Jest Playwright What are my Interests Link to heading AI, Machine learning, front-end development, back-end development, accessibility (a11y)</description>
+      <description>&lt;p&gt;I am a Ulaval graduate software developer in the Quebec City area &lt;strong&gt;currently looking for work&lt;/strong&gt;. People say I am a team player that can integrate easily into a new organisation. I also get along well with new people.&lt;/p&gt;&#xA;&lt;h2 id=&#34;languages-i-am-proficient-in&#34;&gt;&#xA;  Languages I am proficient in&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#languages-i-am-proficient-in&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Javascript&lt;/li&gt;&#xA;&lt;li&gt;TypeScript&lt;/li&gt;&#xA;&lt;li&gt;PHP&lt;/li&gt;&#xA;&lt;li&gt;Go&lt;/li&gt;&#xA;&lt;li&gt;C#&lt;/li&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;li&gt;Kotlin&lt;/li&gt;&#xA;&lt;li&gt;Swift&lt;/li&gt;&#xA;&lt;li&gt;MySQL&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;frameworks-i-am-familiar-with&#34;&gt;&#xA;  Frameworks I am familiar with&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#frameworks-i-am-familiar-with&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;VueJS&lt;/li&gt;&#xA;&lt;li&gt;React&lt;/li&gt;&#xA;&lt;li&gt;.NET&lt;/li&gt;&#xA;&lt;li&gt;Doctrine&lt;/li&gt;&#xA;&lt;li&gt;Gin &amp;amp; Gorm&lt;/li&gt;&#xA;&lt;li&gt;Spacy&lt;/li&gt;&#xA;&lt;li&gt;Vitest&lt;/li&gt;&#xA;&lt;li&gt;Jest&lt;/li&gt;&#xA;&lt;li&gt;Playwright&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-are-my-interests&#34;&gt;&#xA;  What are my Interests&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#what-are-my-interests&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;AI, Machine learning, front-end development, back-end development, accessibility (a11y)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Portfolio</title>
       <link>http://localhost:1313/portfolio/</link>
       <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/</guid>
-      <description>Debatemps : Debate timer Link to heading Débatemps is a debate timer application that supports many debate formats, such as British and Canadian Parliamentary. It uses an object oriented approach in order to have a modular design, which makes it easy to add new debate formats. It is currently available on Google Play but could theoretically run both on iOS and Android.&#xA;Technologies Capacitor, VueJS, Ionic Check the app on google play</description>
+      <description>&lt;h2 id=&#34;debatemps--debate-timer&#34;&gt;&#xA;  Debatemps : Debate timer&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#debatemps--debate-timer&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Débatemps is a debate timer application that supports many debate formats, such as British and Canadian Parliamentary. It uses an object oriented approach in order to have a modular design, which makes it easy to add new debate formats. It is currently available on Google Play but could theoretically run both on iOS and Android.&lt;/p&gt;&#xA;&lt;div class=&#34;notice info&#34;&gt;&#xA;  &lt;div class=&#34;notice-title&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-exclamation-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;Technologies&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;notice-content&#34;&gt;Capacitor, VueJS, Ionic&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/debatempsDemo_transformed.png&#34; alt=&#34;Debatemps app screenshot&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/debatemps_logo.png&#34; alt=&#34;Debatemps app logo&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
