@@ -47,6 +47,12 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Debug - Check theme folder
+        run: |
+          echo "Listing directory theme:"
+          ls -la themes/
+          echo "Checking if theme submodule exists:"
+          git submodule status  
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
