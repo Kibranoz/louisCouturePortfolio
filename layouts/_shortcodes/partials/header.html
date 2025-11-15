@@ -1,0 +1,79 @@
+<nav class="navigation">
+  <section class="container">
+    {{ with .Site }}
+    <a class="navigation-title" href="{{ absLangURL "" }}">
+      {{ .Title }}
+    </a>
+    {{ end }}
+    {{ if or .Site.Menus.main hugo.IsMultilingual }}
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        {{ with .Site.Menus.main}}
+          {{ range sort . }}
+            <li class="navigation-item">
+                {{if eq .Params.isSubMenu "true" }}
+                <div class="subMenuButton" onclick="toggleSubMenu('{{.Name}}')">{{.Name}}</div>
+
+              {{ else }}
+              <a class="navigation-link {{ .Params.class }}" href="{{ index (apply (slice .URL) (.Params.urlFunc | default "relLangURL") ".") 0 }}">{{ .Name }}</a>
+              {{end}}
+              <div class="subMenuChildren" id = "subMenu-{{.Name}}">
+              {{ range .Children }}
+              <a class="navigation-link {{ .Params.class }}" href="{{ index (apply (slice .URL) (.Params.urlFunc | default "relLangURL") ".") 0 }}">{{ .Name }}</a>
+              {{ end }}
+              </div>
+            </li>
+          {{ end }}
+        {{ end }}
+        {{ if hugo.IsMultilingual }}
+          {{ $node := . }}
+          {{ .Scratch.Set "separator" true }}
+          {{ range (default .Site.Home.AllTranslations .Translations) }}
+            {{ if ne $.Site.Language .Language }}
+              {{ if $node.Scratch.Get "separator" }}
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                {{ $node.Scratch.Set "separator" false }}
+              {{ end }}
+              <li class="navigation-item">
+                <a href="{{ .RelPermalink }}">{{ .Language.LanguageName | emojify }}</a>
+              </li>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </ul>
+    {{ end }}
+  </section>
+</nav>
+
+<script>
+function toggleSubMenu(name) {
+  const subMenu = document.getElementById('subMenu-' + name);
+  if (subMenu.style.visibility === 'visible') {
+    subMenu.style.visibility = 'hidden';
+  } else {
+    subMenu.style.visibility = 'visible';
+  }
+}
+</script>
+
+<style>
+.subMenuChildren {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.subMenuButton {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    &:hover {
+        cursor: pointer;
+    }
+}
+</style>
