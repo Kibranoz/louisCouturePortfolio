@@ -53,6 +53,19 @@ jobs:
           ls -la themes/
           echo "Checking if theme submodule exists:"
           git submodule status  
+
+      - name: Debug - Check theme structure  
+        run: |
+          echo "Checking theme shortcodes:"
+          ls -la themes/hugo-coder/layouts/
+          if [ -d "themes/hugo-coder/layouts/_shortcodes" ]; then
+          echo "Found _shortcodes directory:"
+          ls -la themes/hugo-coder/layouts/_shortcodes/
+          fi
+          if [ -d "themes/hugo-coder/layouts/shortcodes" ]; then
+          echo "Found shortcodes directory (no underscore):"
+          ls -la themes/hugo-coder/layouts/shortcodes/
+          fi
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
