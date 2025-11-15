@@ -1,0 +1,16 @@
+{{- $jobTitle := .Get 0 -}} {{- $from := .Get 1 -}} {{- $to := .Get 2 -}}
+
+<style>
+  .resumeHeader {
+    display: flex;
+    justify-content: space-between;
+  }
+  .jobTitle {
+    font-weight: bold;
+  }
+</style>
+
+<div class="resumeHeader">
+  <div class="jobTitle">{{$jobTitle}}</div>
+  <div class="date">{{$from}}-{{$to}}</div>
+</div>

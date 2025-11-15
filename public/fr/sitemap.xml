@@ -2,6 +2,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/fr/apps/</loc>
+    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/apps/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/apps/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fr/apps/debatemps/</loc>
+    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/apps/debatemps/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/apps/debatemps/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fr/</loc>
+    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fr/apps/paths/</loc>
+    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/apps/paths/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/apps/paths/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fr/apps/polcompass/</loc>
+    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/apps/polcompass/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/apps/polcompass/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fr/apps/timenote/</loc>
+    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/apps/timenote/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/apps/timenote/"
+                />
+  </url><url>
     <loc>http://localhost:1313/fr/about/</loc>
     <lastmod>2025-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -15,19 +93,6 @@
                 href="http://localhost:1313/fr/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/</loc>
-    <lastmod>2025-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/"
-                />
-  </url><url>
     <loc>http://localhost:1313/fr/portfolio/</loc>
     <lastmod>2025-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -39,6 +104,18 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://localhost:1313/fr/portfolio/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fr/resume/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/resume/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/resume/"
                 />
   </url><url>
     <loc>http://localhost:1313/fr/authors/</loc>

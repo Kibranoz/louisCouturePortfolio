@@ -113,15 +113,48 @@
         
           
             <li class="navigation-item">
+                
               <a class="navigation-link " href="/fr/about/">À propos</a>
+              
+              <div class="subMenuChildren" id = "subMenu-À propos">
+              
+              </div>
             </li>
           
             <li class="navigation-item">
+                
               <a class="navigation-link " href="/fr/portfolio/">Portfolio</a>
+              
+              <div class="subMenuChildren" id = "subMenu-Portfolio">
+              
+              </div>
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link " href="/fr/apps/">Apps</a>
+                
+                <div class="subMenuButton" onclick="toggleSubMenu('Apps')">Apps</div>
+
+              
+              <div class="subMenuChildren" id = "subMenu-Apps">
+              
+              <a class="navigation-link " href="/fr/apps/deba-temps/">DébaTemps</a>
+              
+              <a class="navigation-link " href="/fr/apps/polcompass/">PolCompass</a>
+              
+              <a class="navigation-link " href="/fr/apps/timenote/">Timenote</a>
+              
+              <a class="navigation-link " href="/fr/apps/paths/">Paths</a>
+              
+              </div>
+            </li>
+          
+            <li class="navigation-item">
+                
+              <a class="navigation-link " href="/fr/resume/">CV</a>
+              
+              <div class="subMenuChildren" id = "subMenu-CV">
+              
+              </div>
             </li>
           
         
@@ -146,6 +179,34 @@
     
   </section>
 </nav>
+
+<script>
+function toggleSubMenu(name) {
+  const subMenu = document.getElementById('subMenu-' + name);
+  if (subMenu.style.visibility === 'visible') {
+    subMenu.style.visibility = 'hidden';
+  } else {
+    subMenu.style.visibility = 'visible';
+  }
+}
+</script>
+
+<style>
+.subMenuChildren {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.subMenuButton {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    &:hover {
+        cursor: pointer;
+    }
+}
+</style>
 
 
     <div class="content">

@@ -6,31 +6,15 @@ aliases = ["about"]
 author = "Louis Couture"
 +++
 
-Je suis un développeur logiciel gradué de l'université Laval **à la recherche d'un nouvel emploi**. Je suis un joueur d'équipe et je suis capable de bien m'intégrer dans une nouvelle équipe. 
+Je suis un développeur logiciel gradué de l'Université Laval **à la recherche d'un nouvel emploi**.
 
-## Languages avec lesquels j'ai de l'expérience
+J'ai une expertise en développement web et mobile, en particulier les applications responsives. Je suis également capable de faire du backend dans plusieurs languages. J'apprends facilement par moi même et je suis autonome. 
 
-- Javascript
-- TypeScript
-- PHP
-- Go
-- C#
-- Python
-- Kotlin
-- Swift
-- MySQL
+On dit de moi que j'ai un bon esprit d'équipe et un fort esprit analytique.
 
-## Frameworks avec lesquels je suis familier
-
-- VueJS
-- React
-- .NET
-- Doctrine
-- Gin & Gorm
-- Spacy
-- Vitest
-- Jest
-- Playwright
+Je suis méticuleux et la qualité est quelque chose d'important pour moi
 
 ## Mes intérêts
 IA, apprentissage machine, développement front-end, développement back-end, accessibilité (a11y)
+
+[Faisons connaissance !](mailto:louisr.couture@gmail.com)

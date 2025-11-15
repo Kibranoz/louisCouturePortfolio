@@ -1,36 +1,17 @@
 +++
-title = "About me"
+title = "About"
 description = "A little bit about me"
 date = "2025-04-02"
 aliases = ["about"]
 author = "Louis Couture"
 +++
 
-I am a Ulaval graduate software developer in the Quebec City area **currently looking for work**. People say I am a team player that can integrate easily into a new organisation. I also get along well with new people. 
+I am a software developer who graduated from Université Laval **looking for a new job**.
+I have expertise in web and mobile development, particularly responsive applications. I am also capable of doing backend work in several languages. I learn easily on my own and I am autonomous.
+People say that I have good teamwork skills and a strong analytical mindset.
+I am meticulous and quality is something important to me.
 
-## Languages I am proficient in 
+## My interests
+AI, machine learning, front-end development, back-end development, accessibility (a11y)
 
-- Javascript
-- TypeScript
-- PHP
-- Go
-- C#
-- Python
-- Kotlin
-- Swift
-- MySQL
-
-## Frameworks I am familiar with
-
-- VueJS
-- React
-- .NET
-- Doctrine
-- Gin & Gorm
-- Spacy
-- Vitest
-- Jest
-- Playwright
-
-## What are my Interests 
-AI, Machine learning, front-end development, back-end development, accessibility (a11y)
+[Let's get in touch](mailto:louisr.couture@gmail.com)

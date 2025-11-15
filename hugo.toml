@@ -89,22 +89,73 @@ languageName = ":fr:"
       weight = 3
       url = "apps/"
       identifier = "apps"
+      [[menu.main.params]]
+        isSubmenu = "true"
 
 [[languages.fr.menu.main]]
     name = "Apps"
     identifier = "apps"
     weight = 3
     url = "apps/"
+    [[languages.fr.menu.main.params]]
+      isSubmenu = "true"
+
 [[menu.main]]
-          name = "Paths"
-          weight = 1
-          url = "/apps/paths/"
-          parent  = "apps"
+    name = "DébaTemps"
+    weight = 1
+    url = "/apps/deba-temps/"
+    parent = "apps"
+
+[[languages.fr.menu.main]]
+    name = "DébaTemps"
+    weight = 1
+    url = "/apps/deba-temps/"
+    parent = "apps"
+[[menu.main]]
+    name = "Paths"
+    weight = 1
+    url = "/apps/paths/"
+    parent  = "apps"
+
 [[languages.fr.menu.main]]
         name = "Paths"
         weight = 3
         url = "/apps/paths/"
         parent  = "apps"
+
+[[menu.main]]
+    name = "PolCompass"
+    weight = 1
+    url = "/apps/polcompass/"
+    parent = "apps"
+
+[[languages.fr.menu.main]]
+    name = "PolCompass"
+    weight = 1
+    url = "/apps/polcompass/"
+    parent = "apps"
+
+[[menu.main]]
+    name = "Timenote"
+    weight = 1
+    url = "/apps/timenote/"
+    parent = "apps"
+
+[[languages.fr.menu.main]]
+    name = "Timenote"
+    weight = 1
+    url = "/apps/timenote/"
+    parent = "apps"
+
+[[menu.main]]
+            name = "Resume"
+            weight= 4
+            url = "resume/"
+
+[[languages.fr.menu.main]]
+            name = "CV"
+            weight= 4
+            url = "resume/"
 
 [caches]
   [caches.images]

@@ -3,7 +3,7 @@
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <title>
-  About me · Louis Couture
+  About · Louis Couture
 </title>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,12 +19,12 @@
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="About me">
+  <meta name="twitter:title" content="About">
   <meta name="twitter:description" content="A little bit about me">
 
 <meta property="og:url" content="http://localhost:1313/about/">
   <meta property="og:site_name" content="Louis Couture">
-  <meta property="og:title" content="About me">
+  <meta property="og:title" content="About">
   <meta property="og:description" content="A little bit about me">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
@@ -115,15 +115,48 @@
         
           
             <li class="navigation-item">
+                
               <a class="navigation-link " href="/about/">About</a>
+              
+              <div class="subMenuChildren" id = "subMenu-About">
+              
+              </div>
             </li>
           
             <li class="navigation-item">
+                
               <a class="navigation-link " href="/portfolio/">Portfolio</a>
+              
+              <div class="subMenuChildren" id = "subMenu-Portfolio">
+              
+              </div>
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link " href="/apps/">Apps</a>
+                
+                <div class="subMenuButton" onclick="toggleSubMenu('Apps')">Apps</div>
+
+              
+              <div class="subMenuChildren" id = "subMenu-Apps">
+              
+              <a class="navigation-link " href="/apps/deba-temps/">DébaTemps</a>
+              
+              <a class="navigation-link " href="/apps/paths/">Paths</a>
+              
+              <a class="navigation-link " href="/apps/polcompass/">PolCompass</a>
+              
+              <a class="navigation-link " href="/apps/timenote/">Timenote</a>
+              
+              </div>
+            </li>
+          
+            <li class="navigation-item">
+                
+              <a class="navigation-link " href="/resume/">Resume</a>
+              
+              <div class="subMenuChildren" id = "subMenu-Resume">
+              
+              </div>
             </li>
           
         
@@ -149,6 +182,34 @@
   </section>
 </nav>
 
+<script>
+function toggleSubMenu(name) {
+  const subMenu = document.getElementById('subMenu-' + name);
+  if (subMenu.style.visibility === 'visible') {
+    subMenu.style.visibility = 'hidden';
+  } else {
+    subMenu.style.visibility = 'visible';
+  }
+}
+</script>
+
+<style>
+.subMenuChildren {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.subMenuButton {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    &:hover {
+        cursor: pointer;
+    }
+}
+</style>
+
 
     <div class="content">
       
@@ -157,56 +218,24 @@
     <header>
       <h1 class="title">
         <a class="title-link" href="http://localhost:1313/about/">
-          About me
+          About
         </a>
       </h1>
     </header>
 
-    <p>I am a Ulaval graduate software developer in the Quebec City area <strong>currently looking for work</strong>. People say I am a team player that can integrate easily into a new organisation. I also get along well with new people.</p>
-<h2 id="languages-i-am-proficient-in">
-  Languages I am proficient in
-  <a class="heading-link" href="#languages-i-am-proficient-in">
+    <p>I am a software developer who graduated from Université Laval <strong>looking for a new job</strong>.
+I have expertise in web and mobile development, particularly responsive applications. I am also capable of doing backend work in several languages. I learn easily on my own and I am autonomous.
+People say that I have good teamwork skills and a strong analytical mindset.
+I am meticulous and quality is something important to me.</p>
+<h2 id="my-interests">
+  My interests
+  <a class="heading-link" href="#my-interests">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<ul>
-<li>Javascript</li>
-<li>TypeScript</li>
-<li>PHP</li>
-<li>Go</li>
-<li>C#</li>
-<li>Python</li>
-<li>Kotlin</li>
-<li>Swift</li>
-<li>MySQL</li>
-</ul>
-<h2 id="frameworks-i-am-familiar-with">
-  Frameworks I am familiar with
-  <a class="heading-link" href="#frameworks-i-am-familiar-with">
-    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h2>
-<ul>
-<li>VueJS</li>
-<li>React</li>
-<li>.NET</li>
-<li>Doctrine</li>
-<li>Gin &amp; Gorm</li>
-<li>Spacy</li>
-<li>Vitest</li>
-<li>Jest</li>
-<li>Playwright</li>
-</ul>
-<h2 id="what-are-my-interests">
-  What are my Interests
-  <a class="heading-link" href="#what-are-my-interests">
-    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h2>
-<p>AI, Machine learning, front-end development, back-end development, accessibility (a11y)</p>
+<p>AI, machine learning, front-end development, back-end development, accessibility (a11y)</p>
+<p><a href="mailto:louisr.couture@gmail.com" >Let&rsquo;s get in touch</a></p>
 
   </article>
 </section>

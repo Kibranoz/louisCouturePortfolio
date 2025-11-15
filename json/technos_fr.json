@@ -1,0 +1,184 @@
+{
+  "technologies": [
+    {
+      "nom": "VueJS",
+      "annees_experience": 3,
+      "statut": "Avancé",
+      "preuves": [
+        "Développement d'un logiciel de point de vente chez Payfacto",
+        "Développement de nouvelles composantes atomiques utilisant des concepts modernes comme v-model",
+        "Adaptation d'un portail de commande en ligne en portail de point de vente cloud",
+        "Application de chronométrage pour débats avec VueJS, Ionic et CapacitorJS"
+      ]
+    },
+    {
+      "nom": "Python",
+      "annees_experience": 4,
+      "statut": "Avancé",
+      "preuves": [
+        "Simulation de la trajectoire des planètes avec Python et Matplotlib (projet de fin d'études)",
+        "Calculateur de résistances avec Python et TkInter",
+        "Simulateur de particules subatomiques avec Python et Pygame"
+      ]
+    },
+    {
+      "nom": "Git",
+      "annees_experience": 6,
+      "statut": "Avancé",
+      "preuves": [
+        "Participation aux revues de code en contexte agile chez Payfacto",
+        "Gestion de multiples projets personnels et professionnels"
+      ]
+    },
+    {
+      "nom": "HTML",
+      "annees_experience": 5,
+      "statut": "Avancé",
+      "preuves": [
+        "Développement de sites web responsive chez GNITIC avec Joomla et WordPress",
+        "Développement de multiples applications web (React, Vue)"
+      ]
+    },
+    {
+      "nom": "PHP",
+      "annees_experience": 2,
+      "statut": "Avancé",
+      "preuves": [
+        "Développement de fonctionnalités de rapports avec PHP et Doctrine chez Payfacto",
+        "Développement d'extensions WooCommerce chez GNITIC"
+      ]
+    },
+    {
+      "nom": "Progressive Web Apps",
+      "annees_experience": 3,
+      "statut": "Avancé",
+      "preuves": [
+        "Application d'horodatage disponible en PWA sur Android et PC",
+        "Migration d'application mobile de Cordova à CapacitorJS chez Payfacto"
+      ]
+    },
+    {
+      "nom": "TypeScript",
+      "annees_experience": 3,
+      "statut": "Avancé",
+      "preuves": [
+        "Application de chronométrage de débats réalisée avec TypeScript",
+        "Développement d'applications chez Payfacto utilisant TypeScript"
+      ]
+    },
+    {
+      "nom": "React",
+      "annees_experience": 2,
+      "statut": "Intermédiaire",
+      "preuves": [
+        "Application de type Boussole électorale en ReactJS",
+        "Application web pour club de lecture chez GNITIC",
+        "Application de consultation des cartes du jeu 2 tonnes (3e place du prix des Jeux du Québec)"
+      ]
+    },
+    {
+      "nom": "Go",
+      "annees_experience": 1,
+      "statut": "Intermédiaire",
+      "preuves": [
+        "Développement de fonctionnalités de rapports avec Go, Gin et Gorm chez Payfacto",
+        "Backend de l'application Boussole électorale en Golang"
+      ]
+    },
+    {
+      "nom": "SQL",
+      "annees_experience": 2,
+      "statut": "Intermédiaire",
+      "preuves": [
+        "Recherche d'informations dans les bases de données chez GNITIC",
+        "Développement de plateforme de recherche d'archives pour la Société d'Histoire Régionale"
+      ]
+    },
+    {
+      "nom": "Java",
+      "annees_experience": 1,
+      "statut": "Intermédiaire",
+      "preuves": ["Formation académique en Génie Logiciel à l'Université Laval"]
+    },
+    {
+      "nom": "Vite",
+      "annees_experience": 2,
+      "statut": "Intermédiaire",
+      "preuves": ["Écriture de tests unitaires avec Vite chez Payfacto"]
+    },
+    {
+      "nom": "Playwright",
+      "annees_experience": 1,
+      "statut": "Intermédiaire",
+      "preuves": ["Écriture de tests E2E avec Playwright chez Payfacto"]
+    },
+    {
+      "nom": "Jetpack Compose",
+      "annees_experience": 1,
+      "statut": "Intermédiaire",
+      "preuves": [
+        "Application pour synchroniser les montres réalisée avec Jetpack Compose (Android)"
+      ]
+    },
+    {
+      "nom": "Doctrine",
+      "annees_experience": 1,
+      "statut": "Débutant",
+      "preuves": [
+        "Développement de fonctionnalités de rapports avec Doctrine chez Payfacto"
+      ]
+    },
+    {
+      "nom": "Spacy",
+      "annees_experience": 1,
+      "statut": "Débutant",
+      "preuves": [
+        "Création d'un Feed BlueSky utilisant le Natural Language Processing avec décomposition des mots et analyse des sujets d'actualités"
+      ]
+    },
+    {
+      "nom": "Docker",
+      "annees_experience": 1,
+      "statut": "Débutant",
+      "preuves": ["Expérience en environnement de développement professionnel"]
+    },
+    {
+      "nom": "AWS",
+      "annees_experience": 1,
+      "statut": "Débutant",
+      "preuves": ["Déploiement d'applications sur le cloud"]
+    },
+    {
+      "nom": "C#",
+      "annees_experience": 1,
+      "statut": "Débutant",
+      "preuves": [
+        "Développement d'un logiciel d'ajout de dimensions dans les plans de construction chez Angel Software",
+        "Application de consultation des cartes du jeu 2 tonnes avec backend .NET (C#)"
+      ]
+    },
+    {
+      "nom": "NodeJS",
+      "annees_experience": 2,
+      "statut": "Intermédiaire",
+      "preuves": [
+        "Réécriture d'un système générant des installateurs avec NodeJS et InnoSetup chez Payfacto"
+      ]
+    },
+    {
+      "nom": "CapacitorJS",
+      "annees_experience": 2,
+      "statut": "Intermédiaire",
+      "preuves": [
+        "Migration d'une application mobile de Cordova à CapacitorJS chez Payfacto",
+        "Application de chronométrage de débats compatible Android et iOS"
+      ]
+    },
+    {
+      "nom": "Ionic",
+      "annees_experience": 1,
+      "statut": "Intermédiaire",
+      "preuves": ["Application de chronométrage de débats réalisée avec Ionic"]
+    }
+  ]
+}

@@ -116,23 +116,54 @@
         
           
             <li class="navigation-item">
+                
               <a class="navigation-link " href="/about/">About</a>
+              
+              <div class="subMenuChildren" id = "subMenu-About">
+              
+              </div>
             </li>
           
             <li class="navigation-item">
+                
               <a class="navigation-link " href="/portfolio/">Portfolio</a>
+              
+              <div class="subMenuChildren" id = "subMenu-Portfolio">
+              
+              </div>
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link " href="/apps/">Apps</a>
+                
+                <div class="subMenuButton" onclick="toggleSubMenu('Apps')">Apps</div>
+
+              
+              <div class="subMenuChildren" id = "subMenu-Apps">
+              
+              <a class="navigation-link " href="/apps/deba-temps/">DébaTemps</a>
+              
+              <a class="navigation-link " href="/apps/paths/">Paths</a>
+              
+              <a class="navigation-link " href="/apps/polcompass/">PolCompass</a>
+              
+              <a class="navigation-link " href="/apps/timenote/">Timenote</a>
+              
+              </div>
+            </li>
+          
+            <li class="navigation-item">
+                
+              <a class="navigation-link " href="/resume/">Resume</a>
+              
+              <div class="subMenuChildren" id = "subMenu-Resume">
+              
+              </div>
             </li>
           
         
         
           
           
-          
-            
           
             
               
@@ -142,7 +173,7 @@
                 
               
               <li class="navigation-item">
-                <a href="/fr/">🇫🇷</a>
+                <a href="/fr/apps/paths/">🇫🇷</a>
               </li>
             
           
@@ -151,6 +182,34 @@
     
   </section>
 </nav>
+
+<script>
+function toggleSubMenu(name) {
+  const subMenu = document.getElementById('subMenu-' + name);
+  if (subMenu.style.visibility === 'visible') {
+    subMenu.style.visibility = 'hidden';
+  } else {
+    subMenu.style.visibility = 'visible';
+  }
+}
+</script>
+
+<style>
+.subMenuChildren {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.subMenuButton {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    &:hover {
+        cursor: pointer;
+    }
+}
+</style>
 
 
     <div class="content">
@@ -165,14 +224,57 @@
       </h1>
     </header>
 
-    <h2 id="title">
-  title
-  <a class="heading-link" href="#title">
+    <h1 id="paths">
+  Paths
+  <a class="heading-link" href="#paths">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>This application allows you to add paths to your PATH variable in a graphical user interface. You can also set alias and where those scripts are.</p>
+<p><img src="../../images/paths/path.png" alt="Path setup app screenshot">
+<img src="../../images/paths/alias.png" alt="Path setup app alias screenshot"></p>
+<h2 id="faq">
+  FAQ
+  <a class="heading-link" href="#faq">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<p>Hi</p>
+<h3 id="how-does-the-app-works">
+  How does the app works?
+  <a class="heading-link" href="#how-does-the-app-works">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>This app use fedora&rsquo;s .bashrc.d folder, so it doesn&rsquo;t mess with your .bashrc file. If you are on another linux distro, it will create a .bashrc.d folder and add the following code to your .bashrc file</p>
+<pre tabindex="0"><code>if [ -d ~/.bashrc.d ]; then
+    for rc in ~/.bashrc.d/*; do
+        if [ -f &#34;$rc&#34; ]; then
+            . &#34;$rc&#34;
+        fi
+    done
+fi
+unset rc
+</code></pre><p>This script loops through all the files in the .bashrc.d folder and sources them, making sure that the paths and aliases are available in your bash session.</p>
+<h3 id="why-this-app-">
+  Why this app ?
+  <a class="heading-link" href="#why-this-app-">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>While it is possible to manage your path from the file, some users are less familiar with code like syntax for path and alias management. Some also may find it quicker to open a gui to add their paths rather than add them through .bashrc</p>
+<p>This was made as an attempt to make the family of operating system using tools such as the Linux kernel and the GNU library (Commonly refered to as Linux or LiGNUx) to be more user-friendly</p>
+<h3 id="i-opened-the-app-and-my-paths-were-not-added">
+  I opened the app and my paths were not added
+  <a class="heading-link" href="#i-opened-the-app-and-my-paths-were-not-added">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>This is not something that is supported. It only manages the paths and alias that were set up in the app.</p>
 
   </article>
 </section>

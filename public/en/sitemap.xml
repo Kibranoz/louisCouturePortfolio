@@ -4,6 +4,29 @@
   <url>
     <loc>http://localhost:1313/apps/</loc>
     <lastmod>2025-11-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/apps/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/apps/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/apps/debatemps/</loc>
+    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/apps/debatemps/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/apps/debatemps/"
+                />
   </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-11-14T00:00:00+00:00</lastmod>
@@ -20,6 +43,29 @@
   </url><url>
     <loc>http://localhost:1313/apps/paths/</loc>
     <lastmod>2025-11-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/apps/paths/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/apps/paths/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/apps/polcompass/</loc>
+    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/apps/polcompass/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/apps/polcompass/"
+                />
   </url><url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-04-02T00:00:00+00:00</lastmod>
@@ -45,6 +91,30 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/portfolio/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/apps/timenote/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/apps/timenote/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/apps/timenote/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/resume/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/resume/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/resume/"
                 />
   </url><url>
     <loc>http://localhost:1313/authors/</loc>

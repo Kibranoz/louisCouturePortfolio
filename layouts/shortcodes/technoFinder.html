@@ -1,0 +1,484 @@
+{{- $lang := .Get 0 -}}
+
+<script>
+    const technosFr = [
+        {
+            name: "VueJS",
+            years_experience: 3,
+            level: "Avancé",
+            evidence: [
+                "Développement d'un logiciel de point de vente chez Payfacto",
+                "Développement de nouvelles composantes atomiques utilisant des concepts modernes comme v-model",
+                "Adaptation d'un portail de commande en ligne en portail de point de vente cloud",
+                "Application de chronométrage pour débats avec VueJS, Ionic et CapacitorJS",
+            ],
+        },
+        {
+            name: "Python",
+            years_experience: 4,
+            level: "Avancé",
+            evidence: [
+                "Simulation de la trajectoire des planètes avec Python et Matplotlib (projet de fin d'études)",
+                "Calculateur de résistances avec Python et TkInter",
+                "Simulateur de particules subatomiques avec Python et Pygame",
+            ],
+        },
+        {
+            name: "Git",
+            years_experience: 6,
+            level: "Avancé",
+            evidence: [
+                "Participation aux revues de code en contexte agile chez Payfacto",
+                "Gestion de multiples projets personnels et professionnels",
+            ],
+        },
+        {
+            name: "HTML",
+            years_experience: 5,
+            level: "Avancé",
+            evidence: [
+                "Développement de sites web responsive chez GNITIC avec Joomla et WordPress",
+                "Développement de multiples applications web (React, Vue)",
+            ],
+        },
+        {
+            name: "PHP",
+            years_experience: 2,
+            level: "Avancé",
+            evidence: [
+                "Développement de fonctionnalités de rapports avec PHP et Doctrine chez Payfacto",
+                "Développement d'extensions WooCommerce chez GNITIC",
+            ],
+        },
+        {
+            name: "Progressive Web Apps",
+            years_experience: 3,
+            level: "Avancé",
+            evidence: [
+                "Application d'horodatage disponible en PWA sur Android et PC",
+                "Migration d'application mobile de Cordova à CapacitorJS chez Payfacto",
+            ],
+        },
+        {
+            name: "TypeScript",
+            years_experience: 3,
+            level: "Avancé",
+            evidence: [
+                "Application de chronométrage de débats réalisée avec TypeScript",
+            ],
+        },
+        {
+            name: "Javascript",
+            years_experience: 4,
+            level: "Avancé",
+            evidence: [
+                "Développement d'applications chez Payfacto utilisant JavaScript",
+            ],
+        },
+        {
+            name: "React",
+            years_experience: 2,
+            level: "Intermédiaire",
+            evidence: [
+                "Application de type Boussole électorale en ReactJS",
+                "Application web pour club de lecture chez GNITIC",
+                "Application de consultation des cartes du jeu 2 tonnes (3e place du prix des Jeux du Québec)",
+            ],
+        },
+        {
+            name: "Go",
+            years_experience: 1,
+            level: "Intermédiaire",
+            evidence: [
+                "Développement de fonctionnalités de rapports avec Go, Gin et Gorm chez Payfacto",
+                "Backend de l'application Boussole électorale en Golang",
+            ],
+        },
+        {
+            name: "SQL",
+            years_experience: 2,
+            level: "Intermédiaire",
+            evidence: [
+                "Recherche d'informations dans les bases de données chez GNITIC",
+                "Développement de plateforme de recherche d'archives pour la Société d'Histoire Régionale",
+            ],
+        },
+        {
+            name: "Java",
+            years_experience: 1,
+            level: "Intermédiaire",
+            evidence: [
+                "Formation académique en Génie Logiciel à l'Université Laval",
+            ],
+        },
+        {
+            name: "Vite",
+            years_experience: 2,
+            level: "Intermédiaire",
+            evidence: ["Écriture de tests unitaires avec Vite chez Payfacto"],
+        },
+        {
+            name: "Playwright",
+            years_experience: 1,
+            level: "Intermédiaire",
+            evidence: ["Écriture de tests E2E avec Playwright chez Payfacto"],
+        },
+        {
+            name: "Flutter",
+            years_experience: 1,
+            level: "Intermédiaire",
+            evidence: ["Expérience en développement mobile multiplateforme"],
+        },
+        {
+            name: "Jetpack Compose",
+            years_experience: 1,
+            level: "Intermédiaire",
+            evidence: [
+                "Application pour synchroniser les montres réalisée avec Jetpack Compose (Android)",
+            ],
+        },
+        {
+            name: "Doctrine",
+            years_experience: 1,
+            level: "Débutant",
+            evidence: [
+                "Développement de fonctionnalités de rapports avec Doctrine chez Payfacto",
+            ],
+        },
+        {
+            name: "Spacy",
+            years_experience: 1,
+            level: "Débutant",
+            evidence: [
+                "Création d'un Feed BlueSky utilisant le Natural Language Processing avec décomposition des mots et analyse des sujets d'actualités",
+            ],
+        },
+        {
+            name: "Docker",
+            years_experience: 1,
+            level: "Débutant",
+            evidence: [
+                "Expérience en environnement de développement professionnel",
+            ],
+        },
+        {
+            name: "AWS",
+            years_experience: 1,
+            level: "Débutant",
+            evidence: ["Déploiement d'applications sur le cloud"],
+        },
+        {
+            name: "C#",
+            years_experience: 1,
+            level: "Intermédiaire",
+            evidence: [
+                "Développement d'un logiciel d'ajout de dimensions dans les plans de construction chez Angel Software",
+                "Application de consultation des cartes du jeu 2 tonnes avec backend .NET (C#)",
+            ],
+        },
+        {
+            name: "NodeJS",
+            years_experience: 2,
+            level: "Intermédiaire",
+            evidence: [
+                "Réécriture d'un système générant des installateurs avec NodeJS et InnoSetup chez Payfacto",
+            ],
+        },
+        {
+            name: "CapacitorJS",
+            years_experience: 2,
+            level: "Intermédiaire",
+            evidence: [
+                "Migration d'une application mobile de Cordova à CapacitorJS chez Payfacto",
+                "Application de chronométrage de débats compatible Android et iOS",
+            ],
+        },
+        {
+            name: "Cordova",
+            years_experience: 2,
+            level: "Intermédiaire",
+            evidence: [
+                "Migration d'une application mobile de Cordova à CapacitorJS chez Payfacto",
+            ],
+        },
+        {
+            name: "Ionic",
+            years_experience: 1,
+            level: "Intermédiaire",
+            evidence: [
+                "Application de chronométrage de débats réalisée avec Ionic",
+            ],
+        },
+    ];
+
+    const technosEn = [
+        {
+            name: "VueJS",
+            years_experience: 3,
+            level: "Advanced",
+            evidence: [
+                "Development of point-of-sale software at Payfacto",
+                "Development of new atomic components using modern concepts like v-model",
+                "Adaptation of an online ordering portal into a cloud point-of-sale portal",
+                "Debate timing application with VueJS, Ionic and CapacitorJS",
+            ],
+        },
+        {
+            name: "Python",
+            years_experience: 4,
+            level: "Advanced",
+            evidence: [
+                "Simulation of planetary trajectories with Python and Matplotlib (final project)",
+                "Resistance calculator with Python and TkInter",
+                "Subatomic particle simulator with Python and Pygame",
+            ],
+        },
+        {
+            name: "Git",
+            years_experience: 6,
+            level: "Advanced",
+            evidence: [
+                "Participation in code reviews in agile context at Payfacto",
+                "Management of multiple personal and professional projects",
+            ],
+        },
+        {
+            name: "HTML",
+            years_experience: 5,
+            level: "Advanced",
+            evidence: [
+                "Development of responsive websites at GNITIC with Joomla and WordPress",
+                "Development of multiple web applications (React, Vue)",
+            ],
+        },
+        {
+            name: "PHP",
+            years_experience: 2,
+            level: "Advanced",
+            evidence: [
+                "Development of reporting features with PHP and Doctrine at Payfacto",
+                "Development of WooCommerce extensions at GNITIC",
+            ],
+        },
+        {
+            name: "Progressive Web Apps",
+            years_experience: 3,
+            level: "Advanced",
+            evidence: [
+                "Timestamping application available as PWA on Android and PC",
+                "Migration of mobile application from Cordova to CapacitorJS at Payfacto",
+            ],
+        },
+        {
+            name: "TypeScript",
+            years_experience: 3,
+            level: "Advanced",
+            evidence: ["Debate timing application built with TypeScript"],
+        },
+        {
+            name: "Javascript",
+            years_experience: 4,
+            level: "Advanced",
+            evidence: [
+                "Development of applications at Payfacto using JavaScript",
+            ],
+        },
+        {
+            name: "React",
+            years_experience: 2,
+            level: "Intermediate",
+            evidence: [
+                "Electoral Compass-type application in ReactJS",
+                "Web application for book club at GNITIC",
+                "Card consultation application for the game 2 tonnes (3rd place at Prix des Jeux du Québec)",
+            ],
+        },
+        {
+            name: "Go",
+            years_experience: 1,
+            level: "Intermediate",
+            evidence: [
+                "Development of reporting features with Go, Gin and Gorm at Payfacto",
+                "Backend of the Electoral Compass application in Golang",
+            ],
+        },
+        {
+            name: "SQL",
+            years_experience: 2,
+            level: "Intermediate",
+            evidence: [
+                "Database information retrieval at GNITIC",
+                "Development of archive search platform for the Regional Historical Society",
+            ],
+        },
+        {
+            name: "Java",
+            years_experience: 1,
+            level: "Intermediate",
+            evidence: [
+                "Academic training in Software Engineering at Université Laval",
+            ],
+        },
+        {
+            name: "Vite",
+            years_experience: 2,
+            level: "Intermediate",
+            evidence: ["Writing unit tests with Vite at Payfacto"],
+        },
+        {
+            name: "Playwright",
+            years_experience: 1,
+            level: "Intermediate",
+            evidence: ["Writing E2E tests with Playwright at Payfacto"],
+        },
+        {
+            name: "Flutter",
+            years_experience: 1,
+            level: "Intermediate",
+            evidence: ["Experience in cross-platform mobile development"],
+        },
+        {
+            name: "Jetpack Compose",
+            years_experience: 1,
+            level: "Intermediate",
+            evidence: [
+                "Watch synchronization application built with Jetpack Compose (Android)",
+            ],
+        },
+        {
+            name: "Doctrine",
+            years_experience: 1,
+            level: "Beginner",
+            evidence: [
+                "Development of reporting features with Doctrine at Payfacto",
+            ],
+        },
+        {
+            name: "Spacy",
+            years_experience: 1,
+            level: "Beginner",
+            evidence: [
+                "Creation of a BlueSky Feed using Natural Language Processing with word decomposition and current events topic analysis",
+            ],
+        },
+        {
+            name: "Docker",
+            years_experience: 1,
+            level: "Beginner",
+            evidence: ["Experience in professional development environment"],
+        },
+        {
+            name: "AWS",
+            years_experience: 1,
+            level: "Beginner",
+            evidence: ["Deployment of applications on the cloud"],
+        },
+        {
+            name: "C#",
+            years_experience: 1,
+            level: "Intermediate",
+            evidence: [
+                "Development of dimension-adding software for construction plans at Angel Software",
+                "Card consultation application for the game 2 tonnes with .NET backend (C#)",
+            ],
+        },
+        {
+            name: "NodeJS",
+            years_experience: 2,
+            level: "Intermediate",
+            evidence: [
+                "Rewrite of a system generating installers with NodeJS and InnoSetup at Payfacto",
+            ],
+        },
+        {
+            name: "CapacitorJS",
+            years_experience: 2,
+            level: "Intermediate",
+            evidence: [
+                "Migration of mobile application from Cordova to CapacitorJS at Payfacto",
+                "Debate timing application compatible with Android and iOS",
+            ],
+        },
+        {
+            name: "Cordova",
+            years_experience: 2,
+            level: "Intermediate",
+            evidence: [
+                "Migration of mobile application from Cordova to CapacitorJS at Payfacto",
+            ],
+        },
+        {
+            name: "Ionic",
+            years_experience: 1,
+            level: "Intermediate",
+            evidence: ["Debate timing application built with Ionic"],
+        },
+    ];
+    const techs = "{{$lang}}" == "fr" ? technosFr : technosEn;
+
+    function addNewResults() {
+        const searchInput = document.getElementById("searchInput");
+        const filteredTechs = techs.filter(
+            (t) =>
+                searchInput.value != "" &&
+                t.name.toLowerCase().includes(searchInput.value.toLowerCase()),
+        );
+
+        // Clear previous results
+        const searchResults = document.querySelector(".searchResults");
+        searchResults.innerHTML = "";
+
+        // Add new results
+        filteredTechs.forEach((tech) => {
+            const techElement = document.createElement("div");
+            techElement.className = "tech-item";
+
+            const techIntro = document.createElement("div");
+            techIntro.className = "techIntro";
+
+            const techName = document.createElement("div");
+            techName.textContent = tech.name;
+            techIntro.appendChild(techName);
+
+            const techLevel = document.createElement("div");
+            techLevel.textContent = tech.level;
+            techIntro.appendChild(techLevel);
+
+            techElement.appendChild(techIntro);
+
+            const techYears = document.createElement("div");
+            let yoe = "";
+            if ("{{$lang}}" == "fr") {
+                yoe = "Années d'expérience";
+            } else {
+                yoe = "Years of experience";
+            }
+            techYears.textContent = yoe + " : " + tech.years_experience;
+            techElement.appendChild(techYears);
+
+            const techEvidence = document.createElement("div");
+            techEvidence.innerHTML =
+                "<ul><li>" + tech.evidence.join("</li> <li>") + "</ul>";
+            techElement.appendChild(techEvidence);
+
+            searchResults.appendChild(techElement);
+        });
+    }
+</script>
+
+<style>
+    .techIntro {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: solid;
+    }
+</style>
+<div>
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search Technologies..."
+        oninput="addNewResults()"
+    />
+    <div class="searchResults"></div>
+</div>

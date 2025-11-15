@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Timenote · Louis Couture
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Louis Couture">
+<meta name="description" content="
+  Timenote
+  
+    
+    Link to heading
+  
+
+Timenote is a timestamp editor application. It was developped in order to get timestamps of specific moments during online classes that were recorded, enabling easy access to a moment where the teacher was talking about something.  It is available as a Progressive Web App (PWA) or as a standalone application on Linux. It supports both a light and dark mode.
+
+  
+    Technologies
+  
+  HTML, CSS, Javascript
+
+
+">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Timenote">
+  <meta name="twitter:description" content="Timenote Link to heading Timenote is a timestamp editor application. It was developped in order to get timestamps of specific moments during online classes that were recorded, enabling easy access to a moment where the teacher was talking about something. It is available as a Progressive Web App (PWA) or as a standalone application on Linux. It supports both a light and dark mode.
+Technologies HTML, CSS, Javascript">
+
+<meta property="og:url" content="http://localhost:1313/apps/timenote/">
+  <meta property="og:site_name" content="Louis Couture">
+  <meta property="og:title" content="Timenote">
+  <meta property="og:description" content="Timenote Link to heading Timenote is a timestamp editor application. It was developped in order to get timestamps of specific moments during online classes that were recorded, enabling easy access to a moment where the teacher was talking about something. It is available as a Progressive Web App (PWA) or as a standalone application on Linux. It supports both a light and dark mode.
+Technologies HTML, CSS, Javascript">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="apps">
+    <meta property="article:published_time" content="2025-11-14T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-11-14T00:00:00+00:00">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/apps/timenote/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Louis Couture
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+                
+              <a class="navigation-link " href="/about/">About</a>
+              
+              <div class="subMenuChildren" id = "subMenu-About">
+              
+              </div>
+            </li>
+          
+            <li class="navigation-item">
+                
+              <a class="navigation-link " href="/portfolio/">Portfolio</a>
+              
+              <div class="subMenuChildren" id = "subMenu-Portfolio">
+              
+              </div>
+            </li>
+          
+            <li class="navigation-item">
+                
+                <div class="subMenuButton" onclick="toggleSubMenu('Apps')">Apps</div>
+
+              
+              <div class="subMenuChildren" id = "subMenu-Apps">
+              
+              <a class="navigation-link " href="/apps/deba-temps/">DébaTemps</a>
+              
+              <a class="navigation-link " href="/apps/paths/">Paths</a>
+              
+              <a class="navigation-link " href="/apps/polcompass/">PolCompass</a>
+              
+              <a class="navigation-link " href="/apps/timenote/">Timenote</a>
+              
+              </div>
+            </li>
+          
+            <li class="navigation-item">
+                
+              <a class="navigation-link " href="/resume/">Resume</a>
+              
+              <div class="subMenuChildren" id = "subMenu-Resume">
+              
+              </div>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="/fr/apps/timenote/">🇫🇷</a>
+              </li>
+            
+          
+        
+      </ul>
+    
+  </section>
+</nav>
+
+<script>
+function toggleSubMenu(name) {
+  const subMenu = document.getElementById('subMenu-' + name);
+  if (subMenu.style.visibility === 'visible') {
+    subMenu.style.visibility = 'hidden';
+  } else {
+    subMenu.style.visibility = 'visible';
+  }
+}
+</script>
+
+<style>
+.subMenuChildren {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.subMenuButton {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    &:hover {
+        cursor: pointer;
+    }
+}
+</style>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/apps/timenote/">
+          Timenote
+        </a>
+      </h1>
+    </header>
+
+    <h2 id="timenote">
+  Timenote
+  <a class="heading-link" href="#timenote">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Timenote is a timestamp editor application. It was developped in order to get timestamps of specific moments during online classes that were recorded, enabling easy access to a moment where the teacher was talking about something.  It is available as a Progressive Web App (PWA) or as a standalone application on Linux. It supports both a light and dark mode.</p>
+<div class="notice info">
+  <div class="notice-title">
+    <i class="fa-solid fa-exclamation-circle" aria-hidden="true"></i>Technologies
+  </div>
+  <div class="notice-content">HTML, CSS, Javascript</div>
+</div>
+
+<p><img src="../../images/timenote/timenote.png" alt="timenote"></p>
+<p><a href="https://timenote.louiscouture.dev"  class="external-link" target="_blank" rel="noopener">Go to timenote</a></p>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2025
+     Louis Couture 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>
