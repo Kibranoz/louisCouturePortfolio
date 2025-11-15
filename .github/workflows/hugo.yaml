@@ -49,8 +49,8 @@ jobs:
           fetch-depth: 0
       - name: Debug - Check theme folder
         run: |
-          echo "Listing directory:"
-          ls -la /
+          echo "Listing directory theme:"
+          ls -la themes/
           echo "Checking if theme submodule exists:"
           git submodule status  
       - name: Setup Pages
