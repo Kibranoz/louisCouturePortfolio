@@ -1,7 +1,7 @@
 <nav class="navigation">
   <section class="container">
     {{ with .Site }}
-    <a class="navigation-title" href="{{ absLangURL "" }}">
+    <a class="navigation-title header logo" href="{{ absLangURL "" }}">
       {{ .Title }}
     </a>
     {{ end }}
@@ -53,7 +53,7 @@
 <script>
 function toggleSubMenu(name) {
   const subMenu = document.getElementById('subMenu-' + name);
-  if (subMenu.style.display != 'none') {
+  if (subMenu.style.display == 'flex') {
     subMenu.style.display = 'none';
   } else {
     subMenu.style.display = 'flex';
@@ -65,14 +65,22 @@ function toggleSubMenu(name) {
 .subMenuChildren {
     display: none;
     flex-direction: column;
+    padding: 0.5rem;
 }
 
 .subMenuButton {
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 1.7rem;
     display: flex;
     justify-content: space-around;
     &:hover {
         cursor: pointer;
     }
+}
+
+.logo {
+  font-family: "PinyonScript"!important;
+  font-size: 3rem!important;
+  text-transform: unset!important;
 }
 </style>

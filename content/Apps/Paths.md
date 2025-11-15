@@ -6,11 +6,10 @@ aliases = ["paths"]
 author = "Louis Couture"
 +++
 
-# Paths
 This application allows you to add paths to your PATH variable in a graphical user interface. You can also set alias and where those scripts are. 
 
-![Path setup app screenshot](../../images/paths/path.png)
-![Path setup app alias screenshot](../../images/paths/alias.png)
+![Path setup app screenshot](/images/paths/path.png)
+![Path setup app alias screenshot](/images/paths/alias.png)
 
 ## FAQ 
 

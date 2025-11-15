@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "PinyonScript";
+    src: url("/fonts/PinyonScript-Regular.ttf");
+}
+@font-face {
+    font-family: "VictorMono";
+    src: url("/fonts/VictorMono-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "GoogleSansCode";
+    src: url("/fonts/GoogleSansCode-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "VictorMono";
+    src: url("/fonts/VictorMono-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "GoogleSansCode";
+    src: url("/fonts/GoogleSansCode-Italic-VariableFont_wght.ttf");
+    font-style: italic;
+}
+
+body,
+.navigation a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "GoogleSansCode";
+}
+
+.about h1 {
+    font-family: "PinyonScript";
+}

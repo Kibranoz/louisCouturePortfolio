@@ -5,10 +5,11 @@ date = "2025-11-14"
 aliases = ["paths"]
 author = "Louis Couture"
 +++
-# Paths
 Cette application vous permet d'ajouter des chemins à votre variable PATH dans une interface graphique. Vous pouvez également définir des alias et l'emplacement de ces scripts.
-![Capture d'écran de l'application de configuration des chemins](../../images/paths/path.png)
-![Capture d'écran des alias de l'application de configuration des chemins](../../images/paths/alias.png)
+
+![Path setup app screenshot](/images/paths/path.png)
+![Path setup app alias screenshot](/images/paths/alias.png)
+
 ## FAQ 
 ### Comment fonctionne l'application ?
 Cette application utilise le dossier .bashrc.d de Fedora, elle ne modifie donc pas votre fichier .bashrc. Si vous utilisez une autre distribution Linux, elle créera un dossier .bashrc.d et ajoutera le code suivant à votre fichier .bashrc

@@ -5,7 +5,6 @@ aliases = ["deba-temps"]
 author = "Louis Couture"
 +++
 
-## Debatemps : Debate timer
 Débatemps is a debate timer application that supports many debate formats, such as British and Canadian Parliamentary. It uses an object oriented approach in order to have a modular design, which makes it easy to add new debate formats. It is currently available on Google Play but could theoretically run both on iOS and Android.
 
 {{< notice info Technologies\ used>}}

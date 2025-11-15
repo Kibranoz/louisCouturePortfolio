@@ -11,7 +11,7 @@ Timenote is a timestamp editor application. It was developped in order to get ti
 HTML, CSS, Javascript
 {{< /notice >}}
 
-![timenote](../../images/timenote/timenote.png)
+![timenote](/images/timenote/timenote.png)
 
 
 [Go to timenote](https://timenote.louiscouture.dev)
