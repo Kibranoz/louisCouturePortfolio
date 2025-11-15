@@ -13,14 +13,7 @@
 
 
 <meta name="author" content="Louis Couture">
-<meta name="description" content="
-  Timenote
-  
-    
-    Link to heading
-  
-
-Timenote est un éditeur d&rsquo;horodatage. Il a été développé pour horodater des moments précis de cours en ligne enregistrés, permettant ainsi d&rsquo;accéder facilement à un moment où l&rsquo;enseignant abordait un sujet précis. Il est disponible en version Progressive Web App (PWA) ou en version autonome sous Linux. Il prend en charge les modes clair et sombre.
+<meta name="description" content="Timenote est un éditeur d&rsquo;horodatage. Il a été développé pour horodater des moments précis de cours en ligne enregistrés, permettant ainsi d&rsquo;accéder facilement à un moment où l&rsquo;enseignant abordait un sujet précis. Il est disponible en version Progressive Web App (PWA) ou en version autonome sous Linux. Il prend en charge les modes clair et sombre.
 
   
     Technologies
@@ -28,21 +21,22 @@ Timenote est un éditeur d&rsquo;horodatage. Il a été développé pour horodat
   HTML, CSS, Javascript
 
 
-">
+
+Voir Timenote">
 <meta name="keywords" content="blog,developer,personal">
 
 
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Timenote">
-  <meta name="twitter:description" content="Timenote Link to heading Timenote est un éditeur d’horodatage. Il a été développé pour horodater des moments précis de cours en ligne enregistrés, permettant ainsi d’accéder facilement à un moment où l’enseignant abordait un sujet précis. Il est disponible en version Progressive Web App (PWA) ou en version autonome sous Linux. Il prend en charge les modes clair et sombre.
-Technologies HTML, CSS, Javascript">
+  <meta name="twitter:description" content="Timenote est un éditeur d’horodatage. Il a été développé pour horodater des moments précis de cours en ligne enregistrés, permettant ainsi d’accéder facilement à un moment où l’enseignant abordait un sujet précis. Il est disponible en version Progressive Web App (PWA) ou en version autonome sous Linux. Il prend en charge les modes clair et sombre.
+Technologies HTML, CSS, Javascript Voir Timenote">
 
 <meta property="og:url" content="http://localhost:1313/fr/apps/timenote/">
   <meta property="og:site_name" content="Louis Couture">
   <meta property="og:title" content="Timenote">
-  <meta property="og:description" content="Timenote Link to heading Timenote est un éditeur d’horodatage. Il a été développé pour horodater des moments précis de cours en ligne enregistrés, permettant ainsi d’accéder facilement à un moment où l’enseignant abordait un sujet précis. Il est disponible en version Progressive Web App (PWA) ou en version autonome sous Linux. Il prend en charge les modes clair et sombre.
-Technologies HTML, CSS, Javascript">
+  <meta property="og:description" content="Timenote est un éditeur d’horodatage. Il a été développé pour horodater des moments précis de cours en ligne enregistrés, permettant ainsi d’accéder facilement à un moment où l’enseignant abordait un sujet précis. Il est disponible en version Progressive Web App (PWA) ou en version autonome sous Linux. Il prend en charge les modes clair et sombre.
+Technologies HTML, CSS, Javascript Voir Timenote">
   <meta property="og:locale" content="fr">
   <meta property="og:type" content="article">
     <meta property="article:section" content="apps">
@@ -203,18 +197,17 @@ Technologies HTML, CSS, Javascript">
 <script>
 function toggleSubMenu(name) {
   const subMenu = document.getElementById('subMenu-' + name);
-  if (subMenu.style.visibility === 'visible') {
-    subMenu.style.visibility = 'hidden';
+  if (subMenu.style.display != 'none') {
+    subMenu.style.display = 'none';
   } else {
-    subMenu.style.visibility = 'visible';
+    subMenu.style.display = 'flex';
   }
 }
 </script>
 
 <style>
 .subMenuChildren {
-    visibility: hidden;
-    display: flex;
+    display: none;
     flex-direction: column;
 }
 
@@ -241,14 +234,7 @@ function toggleSubMenu(name) {
       </h1>
     </header>
 
-    <h2 id="timenote">
-  Timenote
-  <a class="heading-link" href="#timenote">
-    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h2>
-<p>Timenote est un éditeur d&rsquo;horodatage. Il a été développé pour horodater des moments précis de cours en ligne enregistrés, permettant ainsi d&rsquo;accéder facilement à un moment où l&rsquo;enseignant abordait un sujet précis. Il est disponible en version Progressive Web App (PWA) ou en version autonome sous Linux. Il prend en charge les modes clair et sombre.</p>
+    <p>Timenote est un éditeur d&rsquo;horodatage. Il a été développé pour horodater des moments précis de cours en ligne enregistrés, permettant ainsi d&rsquo;accéder facilement à un moment où l&rsquo;enseignant abordait un sujet précis. Il est disponible en version Progressive Web App (PWA) ou en version autonome sous Linux. Il prend en charge les modes clair et sombre.</p>
 <div class="notice info">
   <div class="notice-title">
     <i class="fa-solid fa-exclamation-circle" aria-hidden="true"></i>Technologies

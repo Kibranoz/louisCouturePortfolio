@@ -5,7 +5,6 @@ aliases = ["deba-temps"]
 author = "Louis Couture"
 +++
 
-## Débatemps : Chronomètre de débat
 Débatemps est une application de chronométrage de débat compatible avec de nombreux formats, tels que les débats parlementaires britannique et canadien. Son approche orientée objet lui confère une conception modulaire, facilitant l'ajout de nouveaux formats. Actuellement disponible sur Google Play, elle pourrait théoriquement fonctionner sur iOS et Android.
 
 {{< notice info Technologies\ used>}}

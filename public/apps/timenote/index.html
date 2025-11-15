@@ -13,14 +13,7 @@
 
 
 <meta name="author" content="Louis Couture">
-<meta name="description" content="
-  Timenote
-  
-    
-    Link to heading
-  
-
-Timenote is a timestamp editor application. It was developped in order to get timestamps of specific moments during online classes that were recorded, enabling easy access to a moment where the teacher was talking about something.  It is available as a Progressive Web App (PWA) or as a standalone application on Linux. It supports both a light and dark mode.
+<meta name="description" content="Timenote is a timestamp editor application. It was developped in order to get timestamps of specific moments during online classes that were recorded, enabling easy access to a moment where the teacher was talking about something.  It is available as a Progressive Web App (PWA) or as a standalone application on Linux. It supports both a light and dark mode.
 
   
     Technologies
@@ -28,21 +21,22 @@ Timenote is a timestamp editor application. It was developped in order to get ti
   HTML, CSS, Javascript
 
 
-">
+
+Go to timenote">
 <meta name="keywords" content="blog,developer,personal">
 
 
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Timenote">
-  <meta name="twitter:description" content="Timenote Link to heading Timenote is a timestamp editor application. It was developped in order to get timestamps of specific moments during online classes that were recorded, enabling easy access to a moment where the teacher was talking about something. It is available as a Progressive Web App (PWA) or as a standalone application on Linux. It supports both a light and dark mode.
-Technologies HTML, CSS, Javascript">
+  <meta name="twitter:description" content="Timenote is a timestamp editor application. It was developped in order to get timestamps of specific moments during online classes that were recorded, enabling easy access to a moment where the teacher was talking about something. It is available as a Progressive Web App (PWA) or as a standalone application on Linux. It supports both a light and dark mode.
+Technologies HTML, CSS, Javascript Go to timenote">
 
 <meta property="og:url" content="http://localhost:1313/apps/timenote/">
   <meta property="og:site_name" content="Louis Couture">
   <meta property="og:title" content="Timenote">
-  <meta property="og:description" content="Timenote Link to heading Timenote is a timestamp editor application. It was developped in order to get timestamps of specific moments during online classes that were recorded, enabling easy access to a moment where the teacher was talking about something. It is available as a Progressive Web App (PWA) or as a standalone application on Linux. It supports both a light and dark mode.
-Technologies HTML, CSS, Javascript">
+  <meta property="og:description" content="Timenote is a timestamp editor application. It was developped in order to get timestamps of specific moments during online classes that were recorded, enabling easy access to a moment where the teacher was talking about something. It is available as a Progressive Web App (PWA) or as a standalone application on Linux. It supports both a light and dark mode.
+Technologies HTML, CSS, Javascript Go to timenote">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="apps">
@@ -203,18 +197,17 @@ Technologies HTML, CSS, Javascript">
 <script>
 function toggleSubMenu(name) {
   const subMenu = document.getElementById('subMenu-' + name);
-  if (subMenu.style.visibility === 'visible') {
-    subMenu.style.visibility = 'hidden';
+  if (subMenu.style.display != 'none') {
+    subMenu.style.display = 'none';
   } else {
-    subMenu.style.visibility = 'visible';
+    subMenu.style.display = 'flex';
   }
 }
 </script>
 
 <style>
 .subMenuChildren {
-    visibility: hidden;
-    display: flex;
+    display: none;
     flex-direction: column;
 }
 
@@ -241,14 +234,7 @@ function toggleSubMenu(name) {
       </h1>
     </header>
 
-    <h2 id="timenote">
-  Timenote
-  <a class="heading-link" href="#timenote">
-    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h2>
-<p>Timenote is a timestamp editor application. It was developped in order to get timestamps of specific moments during online classes that were recorded, enabling easy access to a moment where the teacher was talking about something.  It is available as a Progressive Web App (PWA) or as a standalone application on Linux. It supports both a light and dark mode.</p>
+    <p>Timenote is a timestamp editor application. It was developped in order to get timestamps of specific moments during online classes that were recorded, enabling easy access to a moment where the teacher was talking about something.  It is available as a Progressive Web App (PWA) or as a standalone application on Linux. It supports both a light and dark mode.</p>
 <div class="notice info">
   <div class="notice-title">
     <i class="fa-solid fa-exclamation-circle" aria-hidden="true"></i>Technologies

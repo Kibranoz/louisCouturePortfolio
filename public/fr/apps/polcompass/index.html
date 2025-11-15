@@ -13,14 +13,7 @@
 
 
 <meta name="author" content="Louis Couture">
-<meta name="description" content="
-  Polcompass
-  
-    
-    Link to heading
-  
-
-PolCompass est une application similaire à la boussole électorale, mais proposant des questions plus générales sur la politique. L&rsquo;utilisateur peut voir sa position évoluer sur la boussole politique à mesure qu&rsquo;il répond aux questions et créer leur propre boussole politique afin de l&rsquo;utiliser dans l&rsquo;application.
+<meta name="description" content="PolCompass est une application similaire à la boussole électorale, mais proposant des questions plus générales sur la politique. L&rsquo;utilisateur peut voir sa position évoluer sur la boussole politique à mesure qu&rsquo;il répond aux questions et créer leur propre boussole politique afin de l&rsquo;utiliser dans l&rsquo;application.
 
   
     Technologies
@@ -35,13 +28,13 @@ Voir PolCompass (anglais seulement)">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Polcompass">
-  <meta name="twitter:description" content="Polcompass Link to heading PolCompass est une application similaire à la boussole électorale, mais proposant des questions plus générales sur la politique. L’utilisateur peut voir sa position évoluer sur la boussole politique à mesure qu’il répond aux questions et créer leur propre boussole politique afin de l’utiliser dans l’application.
+  <meta name="twitter:description" content="PolCompass est une application similaire à la boussole électorale, mais proposant des questions plus générales sur la politique. L’utilisateur peut voir sa position évoluer sur la boussole politique à mesure qu’il répond aux questions et créer leur propre boussole politique afin de l’utiliser dans l’application.
 Technologies ReactJS, Go Voir PolCompass (anglais seulement)">
 
 <meta property="og:url" content="http://localhost:1313/fr/apps/polcompass/">
   <meta property="og:site_name" content="Louis Couture">
   <meta property="og:title" content="Polcompass">
-  <meta property="og:description" content="Polcompass Link to heading PolCompass est une application similaire à la boussole électorale, mais proposant des questions plus générales sur la politique. L’utilisateur peut voir sa position évoluer sur la boussole politique à mesure qu’il répond aux questions et créer leur propre boussole politique afin de l’utiliser dans l’application.
+  <meta property="og:description" content="PolCompass est une application similaire à la boussole électorale, mais proposant des questions plus générales sur la politique. L’utilisateur peut voir sa position évoluer sur la boussole politique à mesure qu’il répond aux questions et créer leur propre boussole politique afin de l’utiliser dans l’application.
 Technologies ReactJS, Go Voir PolCompass (anglais seulement)">
   <meta property="og:locale" content="fr">
   <meta property="og:type" content="article">
@@ -203,18 +196,17 @@ Technologies ReactJS, Go Voir PolCompass (anglais seulement)">
 <script>
 function toggleSubMenu(name) {
   const subMenu = document.getElementById('subMenu-' + name);
-  if (subMenu.style.visibility === 'visible') {
-    subMenu.style.visibility = 'hidden';
+  if (subMenu.style.display != 'none') {
+    subMenu.style.display = 'none';
   } else {
-    subMenu.style.visibility = 'visible';
+    subMenu.style.display = 'flex';
   }
 }
 </script>
 
 <style>
 .subMenuChildren {
-    visibility: hidden;
-    display: flex;
+    display: none;
     flex-direction: column;
 }
 
@@ -241,14 +233,7 @@ function toggleSubMenu(name) {
       </h1>
     </header>
 
-    <h2 id="polcompass">
-  Polcompass
-  <a class="heading-link" href="#polcompass">
-    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h2>
-<p>PolCompass est une application similaire à la boussole électorale, mais proposant des questions plus générales sur la politique. L&rsquo;utilisateur peut voir sa position évoluer sur la boussole politique à mesure qu&rsquo;il répond aux questions et créer leur propre boussole politique afin de l&rsquo;utiliser dans l&rsquo;application.</p>
+    <p>PolCompass est une application similaire à la boussole électorale, mais proposant des questions plus générales sur la politique. L&rsquo;utilisateur peut voir sa position évoluer sur la boussole politique à mesure qu&rsquo;il répond aux questions et créer leur propre boussole politique afin de l&rsquo;utiliser dans l&rsquo;application.</p>
 <div class="notice info">
   <div class="notice-title">
     <i class="fa-solid fa-exclamation-circle" aria-hidden="true"></i>Technologies

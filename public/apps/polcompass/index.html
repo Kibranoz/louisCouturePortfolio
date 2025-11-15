@@ -13,14 +13,7 @@
 
 
 <meta name="author" content="Louis Couture">
-<meta name="description" content="
-  Polcompass
-  
-    
-    Link to heading
-  
-
-PolCompass is an application like the electoral compass but with more general questions about politics. The user can see their position changing on the political compass as they answer questions and create their own political compass and use it in the app.
+<meta name="description" content="PolCompass is an application like the electoral compass but with more general questions about politics. The user can see their position changing on the political compass as they answer questions and create their own political compass and use it in the app.
 
   
     Technologies
@@ -35,13 +28,13 @@ Go to polcompass">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Polcompass">
-  <meta name="twitter:description" content="Polcompass Link to heading PolCompass is an application like the electoral compass but with more general questions about politics. The user can see their position changing on the political compass as they answer questions and create their own political compass and use it in the app.
+  <meta name="twitter:description" content="PolCompass is an application like the electoral compass but with more general questions about politics. The user can see their position changing on the political compass as they answer questions and create their own political compass and use it in the app.
 Technologies ReactJS, Go Go to polcompass">
 
 <meta property="og:url" content="http://localhost:1313/apps/polcompass/">
   <meta property="og:site_name" content="Louis Couture">
   <meta property="og:title" content="Polcompass">
-  <meta property="og:description" content="Polcompass Link to heading PolCompass is an application like the electoral compass but with more general questions about politics. The user can see their position changing on the political compass as they answer questions and create their own political compass and use it in the app.
+  <meta property="og:description" content="PolCompass is an application like the electoral compass but with more general questions about politics. The user can see their position changing on the political compass as they answer questions and create their own political compass and use it in the app.
 Technologies ReactJS, Go Go to polcompass">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
@@ -203,18 +196,17 @@ Technologies ReactJS, Go Go to polcompass">
 <script>
 function toggleSubMenu(name) {
   const subMenu = document.getElementById('subMenu-' + name);
-  if (subMenu.style.visibility === 'visible') {
-    subMenu.style.visibility = 'hidden';
+  if (subMenu.style.display != 'none') {
+    subMenu.style.display = 'none';
   } else {
-    subMenu.style.visibility = 'visible';
+    subMenu.style.display = 'flex';
   }
 }
 </script>
 
 <style>
 .subMenuChildren {
-    visibility: hidden;
-    display: flex;
+    display: none;
     flex-direction: column;
 }
 
@@ -241,14 +233,7 @@ function toggleSubMenu(name) {
       </h1>
     </header>
 
-    <h2 id="polcompass">
-  Polcompass
-  <a class="heading-link" href="#polcompass">
-    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h2>
-<p>PolCompass is an application like the electoral compass but with more general questions about politics. The user can see their position changing on the political compass as they answer questions and create their own political compass and use it in the app.</p>
+    <p>PolCompass is an application like the electoral compass but with more general questions about politics. The user can see their position changing on the political compass as they answer questions and create their own political compass and use it in the app.</p>
 <div class="notice info">
   <div class="notice-title">
     <i class="fa-solid fa-exclamation-circle" aria-hidden="true"></i>Technologies

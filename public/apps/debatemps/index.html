@@ -204,18 +204,17 @@ Technologies Capacitor, VueJS, Ionic">
 <script>
 function toggleSubMenu(name) {
   const subMenu = document.getElementById('subMenu-' + name);
-  if (subMenu.style.visibility === 'visible') {
-    subMenu.style.visibility = 'hidden';
+  if (subMenu.style.display != 'none') {
+    subMenu.style.display = 'none';
   } else {
-    subMenu.style.visibility = 'visible';
+    subMenu.style.display = 'flex';
   }
 }
 </script>
 
 <style>
 .subMenuChildren {
-    visibility: hidden;
-    display: flex;
+    display: none;
     flex-direction: column;
 }
 

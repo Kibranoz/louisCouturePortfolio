@@ -13,14 +13,7 @@
 
 
 <meta name="author" content="Louis Couture">
-<meta name="description" content="
-  Débatemps : Chronomètre de débat
-  
-    
-    Link to heading
-  
-
-Débatemps est une application de chronométrage de débat compatible avec de nombreux formats, tels que les débats parlementaires britannique et canadien. Son approche orientée objet lui confère une conception modulaire, facilitant l&rsquo;ajout de nouveaux formats. Actuellement disponible sur Google Play, elle pourrait théoriquement fonctionner sur iOS et Android.
+<meta name="description" content="Débatemps est une application de chronométrage de débat compatible avec de nombreux formats, tels que les débats parlementaires britannique et canadien. Son approche orientée objet lui confère une conception modulaire, facilitant l&rsquo;ajout de nouveaux formats. Actuellement disponible sur Google Play, elle pourrait théoriquement fonctionner sur iOS et Android.
 
   
     Technologies
@@ -29,21 +22,22 @@ Débatemps est une application de chronométrage de débat compatible avec de no
 
 
 
-">
+
+Voir l&rsquo;application sur Google Play">
 <meta name="keywords" content="blog,developer,personal">
 
 
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="DebatTemps">
-  <meta name="twitter:description" content="Débatemps : Chronomètre de débat Link to heading Débatemps est une application de chronométrage de débat compatible avec de nombreux formats, tels que les débats parlementaires britannique et canadien. Son approche orientée objet lui confère une conception modulaire, facilitant l’ajout de nouveaux formats. Actuellement disponible sur Google Play, elle pourrait théoriquement fonctionner sur iOS et Android.
-Technologies Capacitor, VueJS, Ionic">
+  <meta name="twitter:description" content="Débatemps est une application de chronométrage de débat compatible avec de nombreux formats, tels que les débats parlementaires britannique et canadien. Son approche orientée objet lui confère une conception modulaire, facilitant l’ajout de nouveaux formats. Actuellement disponible sur Google Play, elle pourrait théoriquement fonctionner sur iOS et Android.
+Technologies Capacitor, VueJS, Ionic Voir l’application sur Google Play">
 
 <meta property="og:url" content="http://localhost:1313/fr/apps/debatemps/">
   <meta property="og:site_name" content="Louis Couture">
   <meta property="og:title" content="DebatTemps">
-  <meta property="og:description" content="Débatemps : Chronomètre de débat Link to heading Débatemps est une application de chronométrage de débat compatible avec de nombreux formats, tels que les débats parlementaires britannique et canadien. Son approche orientée objet lui confère une conception modulaire, facilitant l’ajout de nouveaux formats. Actuellement disponible sur Google Play, elle pourrait théoriquement fonctionner sur iOS et Android.
-Technologies Capacitor, VueJS, Ionic">
+  <meta property="og:description" content="Débatemps est une application de chronométrage de débat compatible avec de nombreux formats, tels que les débats parlementaires britannique et canadien. Son approche orientée objet lui confère une conception modulaire, facilitant l’ajout de nouveaux formats. Actuellement disponible sur Google Play, elle pourrait théoriquement fonctionner sur iOS et Android.
+Technologies Capacitor, VueJS, Ionic Voir l’application sur Google Play">
   <meta property="og:locale" content="fr">
   <meta property="og:type" content="article">
     <meta property="article:section" content="apps">
@@ -204,18 +198,17 @@ Technologies Capacitor, VueJS, Ionic">
 <script>
 function toggleSubMenu(name) {
   const subMenu = document.getElementById('subMenu-' + name);
-  if (subMenu.style.visibility === 'visible') {
-    subMenu.style.visibility = 'hidden';
+  if (subMenu.style.display != 'none') {
+    subMenu.style.display = 'none';
   } else {
-    subMenu.style.visibility = 'visible';
+    subMenu.style.display = 'flex';
   }
 }
 </script>
 
 <style>
 .subMenuChildren {
-    visibility: hidden;
-    display: flex;
+    display: none;
     flex-direction: column;
 }
 
@@ -242,14 +235,7 @@ function toggleSubMenu(name) {
       </h1>
     </header>
 
-    <h2 id="débatemps--chronomètre-de-débat">
-  Débatemps : Chronomètre de débat
-  <a class="heading-link" href="#d%c3%a9batemps--chronom%c3%a8tre-de-d%c3%a9bat">
-    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h2>
-<p>Débatemps est une application de chronométrage de débat compatible avec de nombreux formats, tels que les débats parlementaires britannique et canadien. Son approche orientée objet lui confère une conception modulaire, facilitant l&rsquo;ajout de nouveaux formats. Actuellement disponible sur Google Play, elle pourrait théoriquement fonctionner sur iOS et Android.</p>
+    <p>Débatemps est une application de chronométrage de débat compatible avec de nombreux formats, tels que les débats parlementaires britannique et canadien. Son approche orientée objet lui confère une conception modulaire, facilitant l&rsquo;ajout de nouveaux formats. Actuellement disponible sur Google Play, elle pourrait théoriquement fonctionner sur iOS et Android.</p>
 <div class="notice info">
   <div class="notice-title">
     <i class="fa-solid fa-exclamation-circle" aria-hidden="true"></i>Technologies
