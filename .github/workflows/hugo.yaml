@@ -42,8 +42,8 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Debug - Check theme folder
         run: |
-          echo "Listing themes directory:"
-          ls -la themes/
+          echo "Listing directory:"
+          ls -la /
           echo "Checking if theme submodule exists:"
           git submodule status  
       - name: Install Dart Sass
