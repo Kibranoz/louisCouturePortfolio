@@ -2,168 +2,168 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/fr/apps/</loc>
+    <loc>http://www.example.com/fr/apps/</loc>
     <lastmod>2025-11-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/apps/"
+                href="http://www.example.com/apps/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/apps/"
+                href="http://www.example.com/fr/apps/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/apps/debatemps/</loc>
+    <loc>http://www.example.com/fr/apps/debatemps/</loc>
     <lastmod>2025-11-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/apps/debatemps/"
+                href="http://www.example.com/apps/debatemps/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/apps/debatemps/"
+                href="http://www.example.com/fr/apps/debatemps/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/</loc>
+    <loc>http://www.example.com/fr/</loc>
     <lastmod>2025-11-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="http://www.example.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/"
+                href="http://www.example.com/fr/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/apps/paths/</loc>
+    <loc>http://www.example.com/fr/apps/paths/</loc>
     <lastmod>2025-11-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/apps/paths/"
+                href="http://www.example.com/apps/paths/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/apps/paths/"
+                href="http://www.example.com/fr/apps/paths/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/apps/polcompass/</loc>
+    <loc>http://www.example.com/fr/apps/polcompass/</loc>
     <lastmod>2025-11-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/apps/polcompass/"
+                href="http://www.example.com/apps/polcompass/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/apps/polcompass/"
+                href="http://www.example.com/fr/apps/polcompass/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/apps/timenote/</loc>
+    <loc>http://www.example.com/fr/apps/timenote/</loc>
     <lastmod>2025-11-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/apps/timenote/"
+                href="http://www.example.com/apps/timenote/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/apps/timenote/"
+                href="http://www.example.com/fr/apps/timenote/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/about/</loc>
+    <loc>http://www.example.com/fr/about/</loc>
     <lastmod>2025-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/about/"
+                href="http://www.example.com/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/about/"
+                href="http://www.example.com/fr/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/portfolio/</loc>
+    <loc>http://www.example.com/fr/portfolio/</loc>
     <lastmod>2025-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/portfolio/"
+                href="http://www.example.com/portfolio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/portfolio/"
+                href="http://www.example.com/fr/portfolio/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/resume/</loc>
+    <loc>http://www.example.com/fr/resume/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/resume/"
+                href="http://www.example.com/resume/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/resume/"
+                href="http://www.example.com/fr/resume/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/authors/</loc>
+    <loc>http://www.example.com/fr/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/authors/"
+                href="http://www.example.com/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/authors/"
+                href="http://www.example.com/fr/authors/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/categories/</loc>
+    <loc>http://www.example.com/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="http://www.example.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/categories/"
+                href="http://www.example.com/fr/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/series/</loc>
+    <loc>http://www.example.com/fr/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/series/"
+                href="http://www.example.com/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/series/"
+                href="http://www.example.com/fr/series/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/tags/</loc>
+    <loc>http://www.example.com/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="http://www.example.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/tags/"
+                href="http://www.example.com/fr/tags/"
                 />
   </url>
 </urlset>
