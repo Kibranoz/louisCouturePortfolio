@@ -12,8 +12,8 @@
 
 {{<resumeHeader "Software Developer (Payfacto) Full-time" "2024" "2025">}}
 
-- Diagnosed and resolved critical software bugs to improve system stability
-- Built a point-of-sale software application using VueJS for enhanced user experience
+- Diagnosed and resolved software bugs to improve system stability
+- Built a point-of-sale software application using VueJS and REST APIs
 - Extended API functionality by integrating new endpoints into the store architecture
 - Architected and rewrote installer generation system for point-of-sale application using NodeJS and InnoSetup, supporting both development and production environments
 - Developed comprehensive reporting features leveraging Go, Gin, Gorm, PHP and Doctrine
@@ -28,7 +28,7 @@
 - Designed and implemented application pages in close collaboration with graphic designer
 - Developed new version of payment terminal management platform from the ground up
 - Created reusable "atomic" components utilizing modern VueJS concepts such as _v-model_
-- Built a new point-of-sale system with enhanced functionality
+- Built a new point-of-sale system with cloud functionnalities
 - Participated in code reviews within an agile development framework
 
 {{<resumeHeader "Web Programmer (GNITIC), Student Employment" "2019" "2022">}}
@@ -72,7 +72,7 @@
 
 - Enabled users to bookmark and return to specific moments in courses
 - Launched as mobile app on iOS and progressive web app on Android and PC
-- Integrated keyboard shortcuts for enhanced productivity
+- Integrated mobile keyboard shortcuts for enhanced productivity
 - Implemented text file export functionality
 - Designed dark mode with automatic detection of user system preferences
 

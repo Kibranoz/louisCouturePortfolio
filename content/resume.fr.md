@@ -9,8 +9,8 @@
 - Implémentation de règles d'affaires complexes en collaboration avec le client
 
 {{<resumeHeader "Développeur logiciel (Payfacto) CDI" "2024" "2025">}}
-- Résolution d'anomalies critiques dans les systèmes de production
-- Développement d'une solution de point de vente moderne avec VueJS et architecture RESTful
+- Résolution d'anomalies dans les systèmes de point de vente
+- Développement d'une solution de point de vente moderne avec VueJS et APIs REST
 - Intégration de nouveaux endpoints API dans le store applicatif
 - Refonte complète du système de génération d'installateurs avec NodeJS et InnoSetup, incluant des configurations personnalisables pour les environnements de développement et production
 - Conception et déploiement de fonctionnalités de rapports analytiques avec Go, Gin, Gorm, PHP et Doctrine
@@ -24,7 +24,7 @@
 - Collaboration avec l'équipe design pour l'implémentation des interfaces utilisateur
 - Développement de la nouvelle version de la plateforme de gestion de terminaux de paiement
 - Création de composants atomiques réutilisables exploitant les fonctionnalités avancées de VueJS (v-model)
-- Architecture d'un nouveau système de point de vente complet
+- Conception d'un nouveau système de point de vente infonuagique avec VueJS
 - Participation aux revues de code dans un cadre agile
 
 {{<resumeHeader "Programmeur web (GNITIC), Emploi étudiant" "2019" "2022">}}
@@ -56,13 +56,13 @@
 
 **Création d'un Feed BlueSky utilisant le Natural Language Processing**
 - Implémentation de l'analyse morphologique des mots (noms, déterminants, adjectifs)
-- Exploitation et analyse des tendances d'actualités en temps réel
+- Exploitation et analyse des tendances d'actualités
 - Développement d'un algorithme de tri des publications selon la pertinence contextuelle
 
 **Application d'horodatage pour les cours en ligne**
 - Création d'un système de navigation temporelle pour les contenus vidéo
 - Déploiement en application mobile iOS et PWA (Android/PC)
-- Intégration de raccourcis clavier pour l'optimisation de l'expérience utilisateur
+- Intégration de raccourcis clavier sur mobile pour l'optimisation de l'expérience utilisateur
 - Implémentation de l'exportation en format texte et d'un mode sombre adaptatif
 
 **Application pour synchroniser les montres**
